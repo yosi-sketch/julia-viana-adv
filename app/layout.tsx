@@ -17,51 +17,60 @@ const bodyFont = Plus_Jakarta_Sans({
 });
 
 export const viewport: Viewport = {
-  themeColor: "#16100c",
+  themeColor: "#12100e",
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.draizabellarenno.com"),
-  title: "Dra. Izabella Rennó | Advocacia & Consultoria Jurídica em Itajubá - MG",
+  metadataBase: new URL("https://www.juliavianadiniz.adv.br"),
+  title: "Advogada Poços de Caldas | Julia Viana Diniz Advocacia",
   description:
-    "Advocacia estratégica, rigor técnico e atendimento dedicado conduzido pela Dra. Izabella Rennó (OAB/MG 201.285). Formação HarvardX em Direito Contratual, Cível, Consumidor, Bancário, Família e Trabalhista. Atendimento presencial no Ed. Santa Clara em Itajubá e on-line em todo o Brasil.",
+    "Advocacia de alto padrão e atendimento humanizado conduzido pela Dra. Julia Viana Diniz. Especialista em Direito Previdenciário (Salário-Maternidade e Aposentadorias), Família e Sucessões, e Direito do Trabalho. Atendimento presencial na Rua Barros Cobra, 667 - Centro, Poços de Caldas/MG e on-line em todo o Brasil.",
   keywords: [
-    "Dra. Izabella Rennó",
-    "Izabella Rennó Advocacia",
-    "advogada em Itajubá",
-    "Edifício Santa Clara Itajubá",
-    "OAB MG 201285",
-    "direito civil Itajubá",
-    "contratos HarvardX",
-    "direito bancário e consumidor",
-    "direito de família e sucessões",
-    "advocacia especializada Minas Gerais",
+    "Dra. Julia Viana Diniz",
+    "Julia Viana Diniz Advogada",
+    "Julia Viana Diniz Advocacia",
+    "advogada em Poços de Caldas",
+    "advogada Poços de Caldas",
+    "Rua Barros Cobra Poços de Caldas",
+    "direito previdenciário Poços de Caldas",
+    "salário maternidade Poços de Caldas",
+    "advogada previdenciária Minas Gerais",
+    "direito de família Poços de Caldas",
+    "direito do trabalho Poços de Caldas",
+    "advogada trabalhista Poços de Caldas",
+    "consulta jurídica Poços de Caldas",
   ],
-  authors: [{ name: "Dra. Izabella Rennó Del-Ducca de Souza" }],
-  creator: "Izabella Rennó Advocacia",
-  publisher: "Izabella Rennó Advocacia",
+  authors: [{ name: "Dra. Julia Viana Diniz" }],
+  creator: "Julia Viana Diniz Advocacia",
+  publisher: "Julia Viana Diniz Advocacia",
   formatDetection: {
     telephone: true,
     address: true,
   },
   icons: {
-    icon: "/icon.png",
-    apple: "/apple-icon.png",
+    icon: [
+      { url: "/favicon.ico?v=3" },
+      { url: "/icon.png?v=3", sizes: "512x512", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico?v=3",
+    apple: [
+      { url: "/apple-icon.png?v=3", sizes: "180x180", type: "image/png" },
+    ],
   },
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://www.draizabellarenno.com",
-    title: "Dra. Izabella Rennó | Advocacia de Alta Precisão em Itajubá - MG",
+    url: "https://www.juliavianadiniz.adv.br",
+    title: "Advogada Poços de Caldas | Julia Viana Diniz Advocacia",
     description:
-      "Advocacia estratégica com dedicação exclusiva a cada causa. Atendimento presencial em Itajubá - MG e on-line para todo o Brasil.",
-    siteName: "Izabella Rennó Advocacia",
+      "Antes de dizer se existe um direito, eu preciso conhecer a sua história. Atendimento humanizado, escuta ativa e dedicação exclusiva a cada causa em Poços de Caldas e em todo o Brasil.",
+    siteName: "Julia Viana Diniz Advocacia",
     images: [
       {
         url: "/logo.png",
-        width: 1200,
-        height: 410,
-        alt: "Izabella Rennó Advocacia",
+        width: 2172,
+        height: 724,
+        alt: "Julia Viana Diniz Advocacia — Poços de Caldas - MG",
       },
     ],
   },
@@ -77,6 +86,11 @@ export default function RootLayout({
       lang="pt-BR"
       className={`${bodyFont.variable} ${displayFont.variable} scroll-smooth`}
     >
+      <head>
+        <link rel="icon" href="/favicon.ico?v=3" sizes="any" />
+        <link rel="icon" href="/icon.png?v=3" type="image/png" />
+        <link rel="apple-touch-icon" href="/apple-icon.png?v=3" />
+      </head>
       <body className="min-h-screen overflow-x-clip bg-ivory font-sans text-ink antialiased selection:bg-brand-700 selection:text-white">
         {children}
       </body>

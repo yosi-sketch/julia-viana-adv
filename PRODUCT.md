@@ -1,25 +1,26 @@
-# Izabella Rennó Advocacia
+# Julia Viana Diniz Advocacia | Poços de Caldas - MG
 
 ## Plataforma
-Site institucional responsivo e de alto padrão em Next.js 16 (App Router), projetado para transmitir autoridade, excelência técnica, sofisticação e acolhimento humano, com navegação fluida, modais detalhados de atuação e integração direta com WhatsApp e canais de contato.
+Site institucional e comercial de alto padrão em Next.js 16 (App Router) com Tailwind CSS v4, animações fluidas via Framer Motion, tipografia nobre (Cormorant Garamond + Plus Jakarta Sans) e integração direta com WhatsApp, Google Maps e Instagram.
 
-## Público
-Pessoas físicas e jurídicas que buscam assessoria jurídica de alto padrão em Itajubá, Sul de Minas Gerais, São Paulo e em todo o Brasil (via atendimento digital estruturado), especialmente nas áreas Cível, Contratos, Consumidor, Bancário, Família e Trabalhista.
+## Perfil & Proposta de Valor
+- **Profissional:** Dra. Julia Viana Diniz | Advogada
+- **Sede:** Rua Barros Cobra, n° 667 - Centro, Poços de Caldas - MG, CEP 37701-018, Brasil
+- **Instagram:** [@juliavianadiniz.adv](https://www.instagram.com/juliavianadiniz.adv/)
+- **Posicionamento:** "Antes de dizer se existe um direito, eu preciso conhecer a sua história." — Advocacia fundada na escuta ativa, sensibilidade humana, rigor técnico e combatividade intransigente.
+- **Prova Social:** 5,0 estrelas com 36 avaliações verificadas no Google Meu Negócio.
 
-## Objetivo
-Apresentar a Dra. Izabella Rennó Del-Ducca de Souza (OAB/MG 201.285), sua formação de excelência internacional (HarvardX em Contract Law), sua dedicação artesanal a cada caso, prova social consolidada (4,9 estrelas com 50+ avaliações no Google) e facilitar o contato ágil via WhatsApp.
+## Pilares de Atuação
+1. **Direito Previdenciário & Salário-Maternidade:** Concessão de salário-maternidade (gestantes empregadas, autônomas, MEI e desempregadas no período de graça), planejamento previdenciário, aposentadorias, auxílios por incapacidade e reversão de indeferimentos do INSS.
+2. **Direito de Família & Sucessões:** Inventários extrajudiciais céleres em cartório de notas, divórcios consensuais e litigiosos, partilha de bens, pensão alimentícia, guarda e convivência de menores.
+3. **Direito do Trabalho & Emprego:** Rescisão indireta por falta grave patronal (Art. 483 da CLT), reversão de justa causa, horas extras, verbas rescisórias, insalubridade e assédio moral.
+4. **Direito Cível & Contratos:** Elaboração e revisão minuciosa de instrumentos contratuais, cobrança de títulos, responsabilidade civil e indenizações por danos morais e materiais.
+5. **Direito do Consumidor & Defesa Bancária:** Combate a fraudes financeiras, golpes digitais, juros extorsivos, descontos indevidos em benefícios do INSS e negativações indevidas no SPC/Serasa.
 
-## Identidade Visual
-- Nome: Dra. Izabella Rennó | Izabella Rennó Advocacia
-- Paleta extraída da marca: Dourado metálico nobre (#c59b4e), Bronze profundo (#936b28), Espresso profundo (#16100c), Marfim refinado (#faf8f4) e Branco puro.
-- Tipografia: Cormorant Garamond nos títulos de autoridade e Plus Jakarta Sans para leitura confortável e contemporânea.
-- Tom: Nobre, assertivo, confiável, transparente, técnico e empático.
-
-## Conteúdo e Mídia
-- Retrato principal da Dra. Izabella Rennó em seu ambiente profissional com diplomas e certificados (`public/imgi_8_...`).
-- Fotografia em seu escritório com o certificado internacional da Harvard Law School / HarvardX (`public/imgi_46_...`).
-- Publicações e artigos jurídicos reais: Direito do Consumidor e Bancário / Fila de Banco (`public/imgi_37_...`) e Direito Civil / Anulação de Doação por Ingratidão (`public/imgi_40_...`).
-- Logotipo oficial vetorizado e rasterizado de alta resolução (`public/logo.png`) e Monograma IR dourado (`public/icon-flavicon.png`).
-- Endereço físico: Edifício Santa Clara - R. Cel. Francisco Braz, 185 - Sl 205 - Centro, Itajubá - MG, 37500-005.
-- Telefone / WhatsApp: (35) 99740-5607.
-- Prova social: 4,9 estrelas e mais de 50 avaliações autênticas no Google Meu Negócio.
+## Identidade Visual & Design System
+- **Paleta Nobre Extraída do Logo e Imagens:**
+  - Primária (Obsidian / Espresso nobre): `#12100e` / `#171412`
+  - Dourado Bronze / Champagne: `#b89358` / `#8a6732` / `#dfc69e` / `#faf6f0`
+  - Fundo Marfim Refinado: `#faf7f2`
+  - Texto e Neutros Suaves: `#5c544d`
+- **Tipografia:** Cormorant Garamond (títulos, autoridade e elegância serifada) e Plus Jakarta Sans (leitura contemporânea e fluida).
